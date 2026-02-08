@@ -1,5 +1,5 @@
 import java.util.*;
-public class Pattern10 {
+public class Pattern8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter no of rows");
@@ -15,13 +15,7 @@ public class Pattern10 {
             }
             int j=1;
             while (j<=star) {
-                if (j%2==1) {
-                    System.out.print("*");
-                }
-                else {
-                    System.out.print(" ");
-                }
-                
+                System.out.print("*");
                 j++;
                 
             }
@@ -33,5 +27,3 @@ public class Pattern10 {
         }
     }
 }
-
-

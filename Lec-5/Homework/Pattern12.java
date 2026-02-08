@@ -1,0 +1,42 @@
+import java.util.*;
+
+
+
+public class Pattern12 {
+    public static void main(String[] args) {
+        Scanner sc  = new Scanner(System.in);
+        System.out.println("Enter the no of rows");
+        int n = sc.nextInt();
+        int space=(2*n)-3;
+        int star=1;
+        int row=1;
+        while (row<=n) {
+            int i = 1;
+            //star
+            while (i<=star) {
+                System.out.print("*");
+                i++;
+            }
+             //space
+            int j=1;
+            while (j<=space) {
+                System.out.print(" ");
+                j++;
+            }
+             if (row==n) {
+                star--;
+             } 
+            int k =1;
+            while (k<=star) {
+                System.out.print("*");
+                k++;
+            }
+            System.out.println();
+            space-=2;
+            star++;
+            row++;
+
+            
+        }
+    }
+}

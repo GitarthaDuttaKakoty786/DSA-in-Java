@@ -1,5 +1,6 @@
+
 import java.util.*;
-public class Pattern10 {
+public class Pattern11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter no of rows");
@@ -19,7 +20,7 @@ public class Pattern10 {
                     System.out.print("*");
                 }
                 else {
-                    System.out.print(" ");
+                    System.out.print("!");
                 }
                 
                 j++;
